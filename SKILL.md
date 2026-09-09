@@ -19,4 +19,4 @@ Start an external channel only when the user supplies a destination and instruct
 Do not promise unavailable models, seamless filler audio, real-time 4K or
 photorealistic scenery. Read README.md and public third-party notices.
 
-[Watch the forest prototype](assets/forest-preview.mp4).
+The current forest prototype is rejected for visual quality. Do not present it as a showcase or use it in publishing.

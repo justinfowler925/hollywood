@@ -4,12 +4,10 @@ An audio, video and broadcasting agent built by Justin Fowler. Hollywood combine
 a local planning model with durable production jobs, procedural scene rendering,
 audio-reactive visuals and bounded private live previews.
 
-[Watch the forest preview](assets/forest-preview.mp4) · [Project page](https://justinfowler.com/portfolio.html#open-hollywood)
+[Project page](https://justinfowler.com/portfolio.html#open-hollywood)
 
-[![Procedural forest prototype](assets/forest-poster.jpg)](assets/forest-preview.mp4)
-
-The four-second silent preview is a rendered excerpt: moving foliage and fireflies
-in a stylized forest. It is a procedural prototype, not photorealistic footage.
+Visual showcase withheld while scene art is improved. Technical rendering tests
+are not evidence of presentation-quality visuals.
 
 ## What is implemented
 
