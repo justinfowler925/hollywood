@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/godotengine/godot-demo-projects",
+  "commit": "a3b5c113112f77291d5f3d1360f33a882fdc52f7",
+  "subdirectory": "3d/sky_shaders",
+  "sha256": {
+    "Main.tscn": "ed854a2a19de93f342a4ed72256900d358f075305c862e992d3c50bf4ba88b04",
+    "README.md": "67e0a098fd2b4b25fa8a66d42b4837abd78c925cc990e61f27fc9153eaec259c",
+    "default_env.tres": "c7ff8f5a0581c522caef4358f30822a509bbbfea6621565b7f6978449389d622",
+    "icon.png": "2463380180e10b3a30636606bd4f466bc92fca360016d98303a4302fb60f7366",
+    "icon.png.import": "83bf59dbaca54278c25ac249028075c25bf4fa1798fd9f6bc5c001a3d1d68ec1",
+    "main.gd": "0397b2d3c4ca2c8b920e80c8f1111f0e55e03b8894894d36368621905b430da8",
+    "main.gd.uid": "937bcb448b5158ca87818d6c2c188385d4aaa7eae9bdc269e87ef72658f564b5",
+    "perlworlnoise.png": "1986483b43675e4c7bcbe2f68c0d8e03c2b1144fa62d66e6301a7fae7e04a7b2",
+    "perlworlnoise.png.import": "74600be2cf4932254002eccb43ce4ca8b96183db5b1c27efc16e71600c550783",
+    "project.godot": "1692d92c83f7dd23d6be08aae559227ff06aa65022de4cc08c2460ace4b90749",
+    "sky_volumetric_clouds.gdshader": "f6826cef27368441d95f8d9a19f5ab85f831a3416c199f2043af280552ecf449",
+    "sky_volumetric_clouds.gdshader.uid": "c150dd14497f3d02f6ec4f0f7c815aef9c8d44f77c8231822190427d7500025d",
+    "space.webp": "6859b9ddfe6081f998e078e0b77d1db5ee7506444815d6026d29379953188347",
+    "space.webp.import": "e03e499841e74793503e67f07706a1a5052164fcf3bc0d8bb5f75be65e41b613",
+    "spheres.gd": "b0fdb2effd9127062333e89679cd198deddceba60df81e1432e20d406dd3be32",
+    "spheres.gd.uid": "870df49958598210ed3cc06731b0ba8b574e7e29c80744065c9368060d1cb764",
+    "weather.webp": "3641ae2ab7a1a5e757046cfbfb5cfd8bf9a2b4b7839a62c682749ad881e975a1",
+    "weather.webp.import": "65114173dd6b08dea5d449113ef0203d494d8e2aa6dc35f616ca3ea47d5e458e",
+    "worlnoise.webp": "25b54fb7c291f3920afcce8cee13b4d3bf2f8f088e4fa06976f1122740ad9191",
+    "worlnoise.webp.import": "a776e2e047c59e6599d93fcebd9ef1fac7899fc92c56a48aed9dced2923ea2e2"
+  }
+}
