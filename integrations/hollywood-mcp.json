@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "hollywood": {
+      "command": "~/.local/share/shine/current/integrations/mcp-ssh-bridge.py",
+      "args": [
+        "--",
+        "/usr/bin/ssh",
+        "-T",
+        "-o",
+        "BatchMode=yes",
+        "-o",
+        "ConnectTimeout=8",
+        "-o",
+        "ControlPath=none",
+        "-o",
+        "ServerAliveInterval=15",
+        "-o",
+        "ServerAliveCountMax=3",
+        "-o",
+        "HostKeyAlias=STUDIO_STABLE_IP_OR_NAME",
+        "-i",
+        "/Users/USER/.ssh/id_ed25519_studio",
+        "USER@studio-host.local",
+        "/path/to/hollywood/runtime/bin/python",
+        "/path/to/hollywood/app/department.py",
+        "serve"
+      ]
+    }
+  }
+}

@@ -44,6 +44,15 @@ Cursor and Claude Code/Desktop can connect to this stdio MCP server. Use the sam
 project ID to share jobs/assets; host conversations do not automatically synchronize.
 See [the Hollywood agent instructions](SKILL.md).
 
+When the host runs on another machine, do not register the MCP as bare `ssh`: a laptop
+sleep longer than sshd's ClientAlive window resets the link and the host reports
+`Server disconnected` until its session restarts. Register Shine's
+[`integrations/mcp-ssh-bridge.py`](https://github.com/justinfowler925/shine/blob/main/integrations/mcp-ssh-bridge.py)
+as the command instead; it respawns ssh, replays the `initialize` handshake and
+idempotent list requests, and fails in-flight tool calls with a retryable JSON-RPC
+error. `integrations/hollywood-mcp.json` is the profile shape with ssh keepalives;
+substitute your user, host, key path and install paths.
+
 ## Still being built
 
 Richer scenery, continuous audio through filler, a rolling external RTMP bridge,
