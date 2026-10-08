@@ -27,6 +27,12 @@ performance or long-running streaming qualification.
 This is a source-available export, not a turnkey installer or a claim that every
 Hollywood roadmap item is complete. Private deployment configuration, model archive
 inventory, credentials, media library and development history are excluded.
+
+**Operational code SSOT is private** (`justinfowler925/studio-media` on the Mac
+Studio at `/Users/jfstudio/Projects/studio-media`, deployed to
+`~/.local/share/hollywood/app`). Do not treat this public repository as the
+deploy source for Studio.
+
 The operational development system has 31 passing automated tests; this public
 export has separate import/compile smoke checks and is not independently qualified
 as a full production installation.
